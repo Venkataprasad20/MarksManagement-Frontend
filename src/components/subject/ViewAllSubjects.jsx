@@ -8,7 +8,7 @@ const ViewSubjects = () => {
 
   const fetchSubjects = async () => {
     try {
-      const response = await axios.get("http://localhost:8080/api/subjects");
+      const response = await axios.get("https://marksmanagement.onrender.com/api/subjects");
       setSubjects(response.data);
       setType("success");
       setMessage("✅ Subjects loaded successfully.");

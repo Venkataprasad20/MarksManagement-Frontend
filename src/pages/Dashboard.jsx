@@ -26,7 +26,7 @@ export default function Dashboard() {
   const fetchComplaints = async () => {
     try {
       const res = await axios.get(
-        `http://localhost:8080/api/complaints/student/${rollNo}`
+        `https://marksmanagement.onrender.com/api/complaints/student/${rollNo}`
       );
       setComplaints(res.data || []);
     } catch (err) {
@@ -38,7 +38,7 @@ export default function Dashboard() {
     if (!complaintMessage.trim()) return alert("Complaint message required");
 
     try {
-      await axios.post("http://localhost:8080/api/complaints", {
+      await axios.post("https://marksmanagement.onrender.com/api/complaints", {
         studentRollNo: rollNo,
         complaintType,
         message: complaintMessage
@@ -69,7 +69,7 @@ export default function Dashboard() {
   const fetchStudent = async () => {
     try {
       const res = await axios.get(
-        `http://localhost:8080/api/students/details/${rollNo}`
+        `https://marksmanagement.onrender.com/api/students/details/${rollNo}`
       );
       setStudent(res.data);
     } catch (err) {
@@ -80,7 +80,7 @@ export default function Dashboard() {
   const fetchSubjects = async () => {
     try {
       const res = await axios.get(
-        `http://localhost:8080/api/subjects/${rollNo}`
+        `https://marksmanagement.onrender.com/api/subjects/${rollNo}`
       );
 
       console.log("SUBJECTS API RESPONSE:", res.data);
@@ -96,7 +96,7 @@ export default function Dashboard() {
   const fetchMarks = async () => {
     try {
       const res = await axios.get(
-        `http://localhost:8080/api/marks/roll/${rollNo}`
+        `https://marksmanagement.onrender.com/api/marks/roll/${rollNo}`
       );
       setMarks(res.data || []);
     } catch (err) {
@@ -109,7 +109,7 @@ export default function Dashboard() {
   const fetchResult = async () => {
     try {
       const res = await axios.get(
-        `http://localhost:8080/api/marks/summary/${rollNo}`
+        `https://marksmanagement.onrender.com/api/marks/summary/${rollNo}`
       );
       const s = res.data;
       setFinalResult({

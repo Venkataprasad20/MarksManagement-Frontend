@@ -19,7 +19,7 @@ const GetMarksByRollNo = () => {
 
     try {
       const res = await axios.get(
-        `http://localhost:8080/api/marks/roll/${rollNo}`
+        `https://marksmanagement.onrender.com/api/marks/roll/${rollNo}`
       );
 
       setMarksData(res.data);

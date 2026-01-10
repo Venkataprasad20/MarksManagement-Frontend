@@ -19,7 +19,7 @@ const DeleteMarks = () => {
     }
 
     try {
-      await axios.delete("http://localhost:8080/api/marks/delete", {
+      await axios.delete("https://marksmanagement.onrender.com/api/marks/delete", {
         params: { rollNo, subjectCode },
       });
 

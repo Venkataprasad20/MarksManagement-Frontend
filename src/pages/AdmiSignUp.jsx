@@ -19,7 +19,7 @@ export default function AdminSignUp() {
 
     try {
       const response = await axios.post(
-        "http://localhost:8080/auth/signup/admin",
+        "https://marksmanagement.onrender.com/auth/signup/admin",
         {
           rollNo: formData.rollNo,
           password: formData.password,

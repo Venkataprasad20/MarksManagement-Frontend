@@ -9,7 +9,7 @@ const DeleteStudentByRollNo = () => {
   const handleDelete = async () => {
     try {
       await axios.delete(
-  `http://localhost:8080/api/students/roll?rollNo=${rollNo}`
+  `https://marksmanagement.onrender.com/api/students/roll?rollNo=${rollNo}`
 );
       setMsg("Student Deleted Successfully!");
       setSuccess(true);

@@ -10,7 +10,7 @@ const GetStudentsByBranch = () => {
   const handleSearch = async () => {
     try {
       const response = await axios.get(
-        `http://localhost:8080/api/students/branch?branch=${branch}`
+        `https://marksmanagement.onrender.com/api/students/branch?branch=${branch}`
       );
 
       if (response.data.length === 0) {

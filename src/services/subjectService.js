@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:8080/api/subjects";
+const API = "https://marksmanagement.onrender.com/api/subjects";
 
 // ADD SUBJECT
 export const addSubject = (subjectName, subjectCode) =>

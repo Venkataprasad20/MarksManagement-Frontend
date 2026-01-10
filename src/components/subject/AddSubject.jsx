@@ -19,7 +19,7 @@ const AddSubject = () => {
     }
 
     try {
-      await axios.post("http://localhost:8080/api/subjects", {
+      await axios.post("https://marksmanagement.onrender.com/api/subjects", {
         subjectCode,
         subjectName,
       });

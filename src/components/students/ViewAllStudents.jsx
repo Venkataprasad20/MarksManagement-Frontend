@@ -12,7 +12,7 @@ const ViewAllStudents = () => {
 
   const fetchAllStudents = async () => {
     try {
-      const response = await axios.get("http://localhost:8080/api/students");
+      const response = await axios.get("https://marksmanagement.onrender.com/api/students");
 
       if (response.data.length === 0) {
         setStudents([]);

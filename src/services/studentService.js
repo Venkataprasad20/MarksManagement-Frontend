@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:8080/api/students";
+const API = "https://marksmanagement.onrender.com/api/students";
 
 // UPDATE NAME BY ROLL NO
 export const updateName = (rollNo, name) =>

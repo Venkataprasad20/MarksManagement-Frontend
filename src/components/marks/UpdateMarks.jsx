@@ -20,7 +20,7 @@ const UpdateMarks = () => {
     }
 
     try {
-      await axios.put("http://localhost:8080/api/marks/update", {
+      await axios.put("https://marksmanagement.onrender.com/api/marks/update", {
         rollNo,
         subjectCode,
         marks: Number(marks),

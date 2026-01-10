@@ -19,7 +19,7 @@ const UpdateSubjectCode = () => {
 
     try {
       await axios.put(
-        `http://localhost:8080/api/subjects/update/code`,
+        `https://marksmanagement.onrender.com/api/subjects/update/code`,
         null,
         { params: { subjectName, subjectCode: newSubjectCode } }
       );

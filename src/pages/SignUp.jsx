@@ -27,7 +27,7 @@ export default function Signup() {
     }
 
     try {
-      const response = await axios.post("http://localhost:8080/auth/signup/student", {
+      const response = await axios.post("https://marksmanagement.onrender.com/auth/signup/student", {
         name: formData.name,
         rollNo: formData.rollNo,
         branch: formData.branch,

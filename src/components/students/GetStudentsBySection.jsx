@@ -10,7 +10,7 @@ const GetStudentsBySection = () => {
   const handleSearch = async () => {
     try {
       const response = await axios.get(
-        `http://localhost:8080/api/students/section?section=${section}`
+        `https://marksmanagement.onrender.com/api/students/section?section=${section}`
       );
 
       if (response.data.length === 0) {

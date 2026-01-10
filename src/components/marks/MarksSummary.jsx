@@ -15,7 +15,7 @@ const MarksSummary = () => {
 
     try {
       const response = await axios.get(
-        `http://localhost:8080/api/marks/summary/${rollNo}`
+        `https://marksmanagement.onrender.com/api/marks/summary/${rollNo}`
       );
 
       setSummary(response.data);

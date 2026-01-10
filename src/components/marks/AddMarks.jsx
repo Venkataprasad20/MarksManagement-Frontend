@@ -20,7 +20,7 @@ const AddMarks = () => {
     }
 
     try {
-      await axios.post("http://localhost:8080/api/marks/add", {
+      await axios.post("https://marksmanagement.onrender.com/api/marks/add", {
         rollNo,
         subjectCode,
         marks: Number(marks),

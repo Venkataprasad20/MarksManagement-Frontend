@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:8080/api/marks";
+const API = "https://marksmanagement.onrender.com/api/marks";
 
 // ADD MARKS
 export const addMarks = (rollNo, subjectCode, marks) =>

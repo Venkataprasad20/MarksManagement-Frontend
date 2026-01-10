@@ -19,7 +19,7 @@ const DeleteSubject = () => {
 
     try {
       await axios.delete(
-        `http://localhost:8080/api/subjects/delete?subjectCode=${subjectCode}`
+        `https://marksmanagement.onrender.com/api/subjects/delete?subjectCode=${subjectCode}`
       );
 
       setSuccess(true);
