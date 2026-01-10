@@ -20,7 +20,9 @@ import UpdateSubjectCode from "./components/subject/UpdateSubjectCode";
 import ViewAllSubjects from "./components/subject/ViewAllSubjects";
 import AddMarks from "./components/marks/AddMarks";
 import UpdateMarks from "./components/marks/UpdateMarks";
-import GetMarksByRollNo from "./components/marks/getMarksByRollNo";
+// Correct:
+import GetMarksByRollNo from "./components/marks/GetMarksByRollNo";
+
 import DeleteMarks from "./components/marks/DeleteMarks";
 import MarksSummary from "./components/marks/MarksSummary";
 
