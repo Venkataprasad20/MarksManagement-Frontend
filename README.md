@@ -3,7 +3,7 @@
 This repository contains the frontend implementation of the Marks Management System, a role-based web application designed to manage and view student marks efficiently.
 The frontend is built with modern web technologies and provides a responsive, user-friendly interface for different user roles such as Admin, Teacher, and Student.
 
-Live link : 
+Live link : https://marks-management-frontend-tqh5.vercel.app
 
 🚀 Features
 
