@@ -1,17 +1,48 @@
-# React + Vite
+🎓 Marks Management System – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the frontend implementation of the Marks Management System, a role-based web application designed to manage and view student marks efficiently.
+The frontend is built with modern web technologies and provides a responsive, user-friendly interface for different user roles such as Admin, Teacher, and Student.
 
-Currently, two official plugins are available:
+Live link : 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Features
 
-## React Compiler
+Role-based login UI (Admin / Teacher / Student)
+Secure session-based authentication flow
+Dynamic dashboards based on user roles
+Student marks view and management interface
+Responsive design for better user experience
+Integrated with backend REST APIs
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+HTML5
+CSS3
+JavaScript (ES6+)
+React.js
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# MarksManagement-Frontend
+🌐 Deployment
+
+Frontend Hosting: Vercel
+Live Application: (Add your Vercel live link here)
+
+🔗 Backend Integration
+
+The frontend communicates with a Spring Boot backend through REST APIs for:
+Authentication
+Role-based access
+Marks data retrieval and updates
+
+📂 Project Structure
+
+Component-based architecture using React
+Reusable UI components
+API service layer for backend communication
+
+📌 Purpose
+
+This project demonstrates:
+Strong frontend fundamentals
+Real-world React application structure
+Integration with secure backend services
+Deployment experience using Vercel
