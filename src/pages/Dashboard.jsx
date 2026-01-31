@@ -308,8 +308,18 @@ export default function Dashboard() {
               {activeTab === "result" && finalResult && (
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
                   <ResultCard darkMode={darkMode} label="Total Marks" value={finalResult.totalMarks} />
-                  <ResultCard darkMode={darkMode} label="Average" value={finalResult.averageMarks} />
-                  <ResultCard darkMode={darkMode} label="Percentage" value={finalResult.percentage + "%"} />
+                  <ResultCard
+                    darkMode={darkMode}
+                    label="Average"
+                    value={finalResult.averageMarks.toFixed(2)}
+                  />
+
+                  <ResultCard
+                    darkMode={darkMode}
+                    label="Percentage"
+                    value={finalResult.percentage.toFixed(2) + "%"}
+                  />
+
                   <ResultCard darkMode={darkMode} label="Grade" value={finalResult.grade} />
                 </div>
               )}
